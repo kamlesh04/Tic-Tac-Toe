@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
   Left = 0
   Top = 0
-  Caption = 'Tic Tac Tao'
+  Caption = 'Tic Tac Toe'
   ClientHeight = 568
   ClientWidth = 384
   FormFactor.Width = 1440
@@ -24,7 +24,7 @@ object frmMain: TfrmMain
       TextSettings.Font.StyleExt = {00070000000000000004000000}
       TextSettings.FontColor = claBlue
       TextSettings.HorzAlign = Center
-      Text = 'Tic Tac Tao'
+      Text = 'Tic Tac Toe'
     end
   end
   object Footer: TToolBar
@@ -319,6 +319,7 @@ object frmMain: TfrmMain
       Text = 'Refresh'
       TextSettings.Font.Size = 20.000000000000000000
       TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.Trimming = None
       OnClick = btnRefreshClick
     end
     object lblPlayAgain: TLabel
