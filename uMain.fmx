@@ -1,0 +1,338 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Tic Tac Tao'
+  ClientHeight = 568
+  ClientWidth = 384
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lblHeader: TLabel
+      Align = Contents
+      StyledSettings = [Family]
+      Size.Width = 384.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Size = 25.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+      TextSettings.HorzAlign = Center
+      Text = 'Tic Tac Tao'
+    end
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 520.000000000000000000
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+  end
+  object recMain: TRectangle
+    Align = Client
+    Size.Width = 384.000000000000000000
+    Size.Height = 472.000000000000000000
+    Size.PlatformDefault = False
+    object rec1: TRectangle
+      Position.X = 96.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl1: TLabel
+        Align = Center
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec2: TRectangle
+      Position.X = 152.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl2: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec3: TRectangle
+      Position.X = 208.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl3: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec4: TRectangle
+      Position.X = 96.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl4: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec5: TRectangle
+      Position.X = 152.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl5: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec6: TRectangle
+      Position.X = 208.000000000000000000
+      Position.Y = 168.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl6: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec7: TRectangle
+      Position.X = 96.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl7: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec8: TRectangle
+      Position.X = 152.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl8: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object rec9: TRectangle
+      Position.X = 208.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claAqua
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Cap = Round
+      object lbl9: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        HitTest = True
+        Size.Width = 60.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        OnClick = lbl1Click
+      end
+    end
+    object recX: TRectangle
+      Fill.Color = claBeige
+      Position.X = 16.000000000000000000
+      Position.Y = 41.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claBlueviolet
+      Stroke.Thickness = 3.000000000000000000
+      OnClick = recXClick
+      object lblX: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        Size.Width = 50.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'X'
+        TabOrder = 0
+      end
+    end
+    object lblSelectChar: TLabel
+      StyledSettings = [Family]
+      Position.X = 8.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 204.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBrown
+      Text = 'Player 1 select your choice.'
+      TabOrder = 10
+    end
+    object recO: TRectangle
+      Fill.Color = claBeige
+      Position.X = 96.000000000000000000
+      Position.Y = 41.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claBlueviolet
+      Stroke.Thickness = 3.000000000000000000
+      OnClick = recOClick
+      object lblO: TLabel
+        Align = Contents
+        StyledSettings = [Family, FontColor]
+        Size.Width = 50.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 25.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'O'
+        TabOrder = 0
+      end
+    end
+    object btnRefresh: TButton
+      StyledSettings = [Family, FontColor]
+      Position.X = 124.000000000000000000
+      Position.Y = 296.000000000000000000
+      Size.Width = 101.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      TabOrder = 12
+      Text = 'Refresh'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = btnRefreshClick
+    end
+    object lblPlayAgain: TLabel
+      StyledSettings = [Family]
+      Position.X = 145.000000000000000000
+      Position.Y = 339.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claCrimson
+      Text = 'Play Again'
+      TabOrder = 13
+    end
+  end
+end
